@@ -127,7 +127,7 @@ def delete_all():
     start()
 
 
-model = load_model('firat.h5')
+model = load_model('my_model.h5')
 
 
 classes = {1: 'Airplane',
