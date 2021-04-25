@@ -91,7 +91,7 @@ def show_image(image):
     image = img_to_array(image)
     image = np.expand_dims(image, axis=0)
     image = imagenet_utils.preprocess_input(image)
-    image = image.reshape(1, 32, 32, 3)
+    image = image.reshape(1, 3, 32, 32)
 
     global pic
     pic = image
